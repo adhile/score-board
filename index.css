@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  background: #1b244a;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+}
+@font-face {
+  font-family: "Cursed Timer ULiL"; /*a name to be used later*/
+  src: url("CursedTimerUlil-Aznm.ttf"); /*URL to font*/
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  /* border: 3px solid red; */
+  height: 65vh;
+}
+.title {
+  color: #eeeeee;
+}
+.score-board {
+  width: 155px;
+  height: 120px;
+  background: #080001;
+  border-radius: 5px;
+}
+.home-score {
+  width: 50%;
+  height: 99%;
+  margin: 0px 35px;
+  /* color: white; */
+  text-align: center;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  color: #f94f6d;
+}
+.guest-score {
+  width: 50%;
+  height: 99%;
+  margin: 0px 35px;
+  /* color: white; */
+  text-align: center;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  color: #f94f6d;
+}
+.btn {
+  margin-top: 26px;
+  width: 45px;
+  height: 45px;
+
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  background: #1b244a;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #9aabd8;
+  font-family: "Cursed Timer ULiL";
+}
+.btn:hover {
+  cursor: pointer;
+}
+.foul {
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+  width: 155px;
+  height: 50px;
+  /* border: 5px solid red; */
+
+  border-radius: 5px;
+}
+.btn-foul {
+  width: 45px;
+
+  margin: 3px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  background: #1b244a;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #9aabd8;
+  font-family: "Cursed Timer ULiL";
+}
+.foul-title {
+  font-size: 20px;
+  color: #eeeeee;
+  margin: 7px 10px;
+}
+.foul-score-board {
+  margin: 3px;
+  border-radius: 5px;
+  width: 40%;
+  height: 45px;
+  /* border: 5px solid yellow; */
+  background: #080001;
+}
+.home-foul-score {
+  margin: 2px 0px;
+  width: 100%;
+  height: 40px;
+  /* border: 5px solid green; */
+  text-align: center;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  color: #f94f6d;
+}
+/* .home-foul-title{
+  
+    font-size: 20px;
+    border: 2px solid red;
+} */
+/* .foul-board{
+       width: 50%;
+height:30px;
+background: #080001;
+border-radius: 5px; 
+} */
+#new-game {
+  text-shadow: 3px -3px 5px black;
+  margin-top: 50px;
+  /* border: 4px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #eeeeee;
+  font-size: 27px;
+  border-radius: 10px;
+  background: linear-gradient(#f94f6d, #ea4c46);
+}
+#new-game:hover {
+  cursor: pointer;
+}
